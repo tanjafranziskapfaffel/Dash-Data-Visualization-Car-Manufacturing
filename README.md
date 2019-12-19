@@ -3,4 +3,6 @@ In production lines mistakes are made by humans or machines that lead to defects
 
 The Python file **Showcase.py** generates a Dash Dashboard which shows information about defects in car manufacturing plants. The data used for the dashboard was randomly generated (with technical knowledge about production processes). The data is stored in **myRandomData.csv**. There is also a Jupyter Notebook file **Showcase.ipynb** available that contains the same code as the Python file.
 
-**Note:** It is necessary to store the folder **assets** in the same folder as the Python / Jupyter Notebook file as the code that generates the dashboard accesses on the folder (the .css format is saved there).
+**Notes:** 
+- Before running the code, you need to install the **dash python library** by running *pip install dash==1.7.0* in yoour command line
+- It is necessary to store the folder **assets** in the same folder as the Python / Jupyter Notebook file as the code that generates the dashboard accesses on the folder (the .css format is saved there).
