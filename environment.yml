@@ -1,0 +1,10 @@
+name: carQualityData
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - plotly
+  - pip=19
+  - dash
+  - pandas
+
