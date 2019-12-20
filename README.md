@@ -9,6 +9,6 @@ The Python file **Showcase.py** generates a Dash dashboard which shows informati
 
 **Alternative instalation using conda:**
 - install miniconda from https://docs.conda.io/en/latest/miniconda.html#
-- install required dependencies $> conda env create -f environment.yml on command line
-- activate the environment $> conda activate carQualityData
-- run the showcase $> python Showcase.py
+- install required dependencies `$> conda env create -f environment.yml`
+- activate the environment `$> conda activate carQualityData`
+- run the showcase `$> python Showcase.py`
