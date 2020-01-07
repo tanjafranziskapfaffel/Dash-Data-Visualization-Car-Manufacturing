@@ -6,3 +6,9 @@ The Python file **Showcase.py** generates a Dash dashboard which shows informati
 **Notes:** 
 - Before running the code, you need to install the **dash python library** by running *pip install dash==1.7.0* in your command line
 - It is necessary to store the folder **assets** in the same folder as the Python / Jupyter Notebook file as the code that generates the dashboard accesses on the folder (the .css format is saved there).
+
+**Alternative instalation using conda:**
+- install miniconda from https://docs.conda.io/en/latest/miniconda.html#
+- install required dependencies `$> conda env create -f environment.yml`
+- activate the environment `$> conda activate carQualityData`
+- run the showcase `$> python Showcase.py`
